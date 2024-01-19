@@ -11,7 +11,9 @@ export default function Home() {
     <main className="flex relative justify-center items-center w-screen h-screen">
       <HelloWorld />
       <div className="absolute bottom-10">
-        <p className="text-sm text-gray-500">&copy; 2024 Vinicius Gazolla Boneto. Todos os direitos reservados.</p>
+        <div className="text-center px-2">
+          <span className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Vinicius Gazolla Boneto. Todos os direitos reservados.</span>
+        </div>
       </div>
     </main>
   )
